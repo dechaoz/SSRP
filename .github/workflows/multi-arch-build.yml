@@ -10,10 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - arch: aarch64_cortex-a53
-            target: mvebu-cortexa53
-
+        include:       
           - arch: x86_64
             target: x86-64
 
