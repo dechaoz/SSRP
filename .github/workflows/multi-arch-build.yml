@@ -14,6 +14,8 @@ jobs:
           - arch: x86_64
             target: x86-64
 
+          - arch: aarch64_cortex-a53
+            target: mvebu-cortexa53
     steps:
       - name: Remove unnecessary files
         run: |
