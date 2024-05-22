@@ -1,4 +1,4 @@
-name: Test Build
+name: Start build ssr+ X86 by dz
 
 on:
  workflow_dispatch:
